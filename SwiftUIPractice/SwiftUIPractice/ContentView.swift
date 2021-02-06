@@ -21,11 +21,11 @@ struct ContentView: View {
             
             if counter > 0{
                 Text("You have tapped \(counter) times")
-            }else{
-                Text("You've not yet tapped")
             }
         })
         .debug()
+        .frame(width: 200, height: 200, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+        .border(Color.black)
     }
 }
 
